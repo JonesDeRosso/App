@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datenschutzerklärung</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; line-height: 1.6; }
+    h1 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+  <h1>Datenschutzerklärung</h1>
+  <p>Diese App erhebt, speichert oder verarbeitet keine personenbezogenen Daten.</p>
+
+  <h2>Keine Erhebung personenbezogener Daten</h2>
+  <p>Die App funktioniert vollständig offline und erfasst keine Daten über dich oder dein Gerät. Es werden keine Informationen an Dritte weitergegeben.</p>
+
+  <h2>Kontakt</h2>
+  <p>Bei Fragen zum Datenschutz kannst du dich an mich wenden:</p>
+  <p>E-Mail: <a href="mailto:deine@email.de">deine@email.de</a></p>
+
+  <p>Letzte Aktualisierung: Juli 2025</p>
+</body>
+</html>
