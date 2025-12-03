@@ -3,59 +3,128 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Datenschutzerklärung TopOut</title>
+  <title>Datenschutzerklärung / Privacy Policy TopOut</title>
   <style>
     body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; line-height: 1.6; }
     h1 { color: #2c3e50; }
-    h2 { color: #34495e; margin-top: 1.5em; }
+    h2, h3 { color: #34495e; margin-top: 1.5em; }
     a { color: #2980b9; text-decoration: none; }
+    hr { margin: 40px 0; border: none; border-top: 1px solid #ccc; }
+    .lang { display: none; }
+    .lang.active { display: block; }
+    .switcher { margin-bottom: 20px; }
+    .switcher button { margin-right: 10px; padding: 5px 15px; cursor: pointer; }
   </style>
 </head>
 <body>
-  <h1>Datenschutzerklärung für TopOut</h1>
+  <div class="switcher">
+    <button onclick="showLang('de')">Deutsch</button>
+    <button onclick="showLang('en')">English</button>
+  </div>
 
-  <h2>1. Allgemeine Informationen</h2>
-  <p>TopOut nimmt den Schutz deiner persönlichen Daten sehr ernst. Alle Daten, die du in der App eingibst oder erzeugst, werden ausschließlich lokal auf deinem Gerät gespeichert. Wir erheben, verarbeiten oder teilen keine personenbezogenen Daten mit Dritten.</p>
+  <!-- DEUTSCH -->
+  <div id="de" class="lang active">
+    <h1>Datenschutzerklärung für TopOut</h1>
 
-  <h2>2. Zugriff auf Standortdaten</h2>
-  <p>TopOut benötigt Zugriff auf deinen Standort, um:</p>
-  <ul>
-    <li>aktuelle Position auf der Karte anzuzeigen,</li>
-    <li>Berg- und Gipfelpositionen korrekt darzustellen,</li>
-    <li>optional Routen oder deine Umgebung anzuzeigen.</li>
-  </ul>
+    <h2>1. Allgemeine Informationen</h2>
+    <p>TopOut nimmt den Schutz deiner persönlichen Daten sehr ernst. Alle Daten, die du in der App eingibst oder erzeugst, werden ausschließlich lokal auf deinem Gerät gespeichert. Wir erheben, verarbeiten oder teilen keine personenbezogenen Daten mit Dritten.</p>
 
-  <h3>Hintergrund-Standort</h3>
-  <p>Falls du die App im Hintergrund nutzt (z. B. während einer Wanderung), wird der Standort nur auf deinem Gerät verwendet, um die Karte aktuell zu halten. Keine Standortdaten werden an externe Server übertragen.</p>
+    <h2>2. Zugriff auf Standortdaten</h2>
+    <p>TopOut benötigt Zugriff auf deinen Standort, um:</p>
+    <ul>
+      <li>aktuelle Position auf der Karte anzuzeigen,</li>
+      <li>Berg- und Gipfelpositionen korrekt darzustellen,</li>
+      <li>optional Routen oder deine Umgebung anzuzeigen.</li>
+    </ul>
 
-  <h3>Prominente Offenlegung & Zustimmung</h3>
-  <p>Bevor TopOut auf deinen Standort zugreift, wird ein klarer Hinweis angezeigt, der erklärt:</p>
-  <ul>
-    <li>warum die Standortdaten benötigt werden,</li>
-    <li>dass die Daten nicht geteilt oder hochgeladen werden,</li>
-    <li>dass du die Berechtigung jederzeit in den Einstellungen entziehen kannst.</li>
-  </ul>
+    <h3>Hintergrund-Standort</h3>
+    <p>Falls du die App im Hintergrund nutzt (z. B. während einer Wanderung), wird der Standort nur auf deinem Gerät verwendet, um die Karte aktuell zu halten. Keine Standortdaten werden an externe Server übertragen.</p>
 
-  <h2>3. Keine Datensammlung oder Tracking</h2>
-  <p>Keine Analyse-Tools, keine Werbung, kein Tracking. Alle Informationen zu deinen markierten Gipfeln verbleiben ausschließlich auf deinem Gerät.</p>
+    <h3>Prominente Offenlegung & Zustimmung</h3>
+    <p>Bevor TopOut auf deinen Standort zugreift, wird ein klarer Hinweis angezeigt, der erklärt:</p>
+    <ul>
+      <li>warum die Standortdaten benötigt werden,</li>
+      <li>dass die Daten nicht geteilt oder hochgeladen werden,</li>
+      <li>dass du die Berechtigung jederzeit in den Einstellungen entziehen kannst.</li>
+    </ul>
 
-  <h2>4. Zugriff auf weitere Berechtigungen</h2>
-  <p>TopOut benötigt eventuell:</p>
-  <ul>
-    <li>Speicherzugriff: zum Speichern deiner eigenen Notizen oder Screenshots.</li>
-    <li>Optionale Kameraerlaubnis: nur, wenn du Fotos von Gipfeln direkt in der App speichern willst.</li>
-  </ul>
+    <h2>3. Keine Datensammlung oder Tracking</h2>
+    <p>Keine Analyse-Tools, keine Werbung, kein Tracking. Alle Informationen zu deinen markierten Gipfeln verbleiben ausschließlich auf deinem Gerät.</p>
 
-  <h2>5. Datensicherheit</h2>
-  <p>Alle Daten werden verschlüsselt und lokal gespeichert. Es gibt keine Cloud-Synchronisation. Du hast jederzeit die volle Kontrolle über deine Daten.</p>
+    <h2>4. Zugriff auf weitere Berechtigungen</h2>
+    <p>TopOut benötigt eventuell:</p>
+    <ul>
+      <li>Speicherzugriff: zum Speichern deiner eigenen Notizen oder Screenshots.</li>
+      <li>Optionale Kameraerlaubnis: nur, wenn du Fotos von Gipfeln direkt in der App speichern willst.</li>
+    </ul>
 
-  <h2>6. Änderungen der Datenschutzerklärung</h2>
-  <p>Änderungen dieser Datenschutzerklärung werden in der App und auf der Webseite bekannt gegeben.</p>
+    <h2>5. Datensicherheit</h2>
+    <p>Alle Daten werden verschlüsselt und lokal gespeichert. Es gibt keine Cloud-Synchronisation. Du hast jederzeit die volle Kontrolle über deine Daten.</p>
 
-  <h2>7. Kontakt</h2>
-  <p>Bei Fragen zum Datenschutz:</p>
-  <p>E-Mail: <a href="mailto:jonesderosso@gmail.com">deine@email.de</a></p>
+    <h2>6. Änderungen der Datenschutzerklärung</h2>
+    <p>Änderungen dieser Datenschutzerklärung werden in der App und auf der Webseite bekannt gegeben.</p>
 
-  <p>Letzte Aktualisierung: Dezember 2025</p>
+    <h2>7. Kontakt</h2>
+    <p>Bei Fragen zum Datenschutz:</p>
+    <p>E-Mail: <a href="mailto:jonesderosso@gmail.com">jonesderosso@gmail.com</a></p>
+
+    <p>Letzte Aktualisierung: Dezember 2025</p>
+  </div>
+
+  <!-- ENGLISH -->
+  <div id="en" class="lang">
+    <h1>Privacy Policy for TopOut</h1>
+
+    <h2>1. General Information</h2>
+    <p>TopOut takes the protection of your personal data very seriously. All data you enter or generate in the app is stored exclusively on your device. We do not collect, process, or share any personal data with third parties.</p>
+
+    <h2>2. Access to Location Data</h2>
+    <p>TopOut requires access to your location to:</p>
+    <ul>
+      <li>display your current position on the map,</li>
+      <li>accurately show mountain and peak locations,</li>
+      <li>optionally display routes or your surroundings.</li>
+    </ul>
+
+    <h3>Background Location</h3>
+    <p>If you use the app in the background (e.g., during a hike), the location is only used on your device to keep the map updated. No location data is transmitted to external servers.</p>
+
+    <h3>Prominent Disclosure & Consent</h3>
+    <p>Before TopOut accesses your location, a clear notice will be displayed explaining:</p>
+    <ul>
+      <li>why location data is needed,</li>
+      <li>that the data is not shared or uploaded,</li>
+      <li>that you can revoke the permission at any time in the settings.</li>
+    </ul>
+
+    <h2>3. No Data Collection or Tracking</h2>
+    <p>No analytics, no ads, no tracking. All information about your marked peaks stays exclusively on your device.</p>
+
+    <h2>4. Access to Other Permissions</h2>
+    <p>TopOut may request:</p>
+    <ul>
+      <li>Storage access: to save your own notes or screenshots.</li>
+      <li>Optional camera permission: only if you want to take photos of peaks directly in the app.</li>
+    </ul>
+
+    <h2>5. Data Security</h2>
+    <p>All data is encrypted and stored locally. There is no cloud synchronization. You always have full control over your data.</p>
+
+    <h2>6. Changes to Privacy Policy</h2>
+    <p>Changes to this privacy policy will be announced in the app and on the website.</p>
+
+    <h2>7. Contact</h2>
+    <p>For questions about privacy:</p>
+    <p>Email: <a href="mailto:jonesderosso@gmail.com">jonesderosso@gmail.com</a></p>
+
+    <p>Last updated: December 2025</p>
+  </div>
+
+  <script>
+    function showLang(lang) {
+      document.querySelectorAll('.lang').forEach(div => div.classList.remove('active'));
+      document.getElementById(lang).classList.add('active');
+    }
+  </script>
 </body>
 </html>
