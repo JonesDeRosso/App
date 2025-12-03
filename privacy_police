@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy TopOut</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; line-height: 1.6; }
+    h1 { color: #2c3e50; }
+    h2 { color: #34495e; margin-top: 1.5em; }
+    a { color: #2980b9; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy for TopOut</h1>
+
+  <h2>1. General Information</h2>
+  <p>TopOut takes the protection of your personal data very seriously. All data you enter or generate in the app is stored locally on your device only. We do not collect, process, or share any personal data with third parties.</p>
+
+  <h2>2. Access to Location Data</h2>
+  <p>TopOut requires access to your location to:</p>
+  <ul>
+    <li>display your current position on the map,</li>
+    <li>accurately show mountain and summit positions,</li>
+    <li>optionally display routes or your surroundings.</li>
+  </ul>
+
+  <h3>Background Location</h3>
+  <p>If you use the app in the background (e.g., during a hike), the location is only used on your device to keep the map up-to-date. No location data is sent to external servers.</p>
+
+  <h3>Prominent Disclosure & Consent</h3>
+  <p>Before TopOut accesses your location, a clear notice will be displayed explaining:</p>
+  <ul>
+    <li>why the location data is needed,</li>
+    <li>that the data will not be shared or uploaded,</li>
+    <li>that you can revoke the permission at any time in the settings.</li>
+  </ul>
+
+  <h2>3. No Data Collection or Tracking</h2>
+  <p>No analytics tools, no advertising, no tracking. All information about your marked summits remains exclusively on your device.</p>
+
+  <h2>4. Access to Additional Permissions</h2>
+  <p>TopOut may optionally require:</p>
+  <ul>
+    <li>Storage access: to save your own notes or screenshots.</li>
+    <li>Optional camera permission: only if you want to save photos of summits directly in the app.</li>
+  </ul>
+
+  <h2>5. Data Security</h2>
+  <p>All data is encrypted and stored locally. There is no cloud synchronization. You have full control over your data at all times.</p>
+
+  <h2>6. Changes to the Privacy Policy</h2>
+  <p>Changes to this privacy policy will be announced in the app and on the website.</p>
+
+  <h2>7. Contact</h2>
+  <p>If you have any questions about data protection:</p>
+  <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+
+  <p>Last updated: December 2025</p>
+</body>
+</html>
